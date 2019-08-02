@@ -1,0 +1,11 @@
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\bin\x64\Debug\netcoreapp2.1\ArmstrongNumbers.deps.json
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\bin\x64\Debug\netcoreapp2.1\ArmstrongNumbers.runtimeconfig.json
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\bin\x64\Debug\netcoreapp2.1\ArmstrongNumbers.runtimeconfig.dev.json
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\bin\x64\Debug\netcoreapp2.1\ArmstrongNumbers.dll
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\bin\x64\Debug\netcoreapp2.1\ArmstrongNumbers.pdb
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.csproj.CoreCompileInputs.cache
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.AssemblyInfoInputs.cache
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.AssemblyInfo.cs
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.dll
+C:\Users\OMRI\source\repos\ArmstrongNumbers\ArmstrongNumbers\obj\x64\Debug\netcoreapp2.1\ArmstrongNumbers.pdb

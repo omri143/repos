@@ -1,0 +1,7 @@
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\bin\Debug\XorEncryptionTest.exe.config
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\bin\Debug\XorEncryptionTest.exe
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\bin\Debug\XorEncryptionTest.pdb
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\obj\Debug\XorEncryptionTest.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\obj\Debug\XorEncryptionTest.csproj.CoreCompileInputs.cache
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\obj\Debug\XorEncryptionTest.exe
+C:\Users\OMRI\source\repos\XorEncryptionTest\XorEncryptionTest\obj\Debug\XorEncryptionTest.pdb

@@ -1,0 +1,11 @@
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\bin\Release\netcoreapp2.1\ComplexNumbers.deps.json
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\bin\Release\netcoreapp2.1\ComplexNumbers.runtimeconfig.json
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\bin\Release\netcoreapp2.1\ComplexNumbers.runtimeconfig.dev.json
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\bin\Release\netcoreapp2.1\ComplexNumbers.dll
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\bin\Release\netcoreapp2.1\ComplexNumbers.pdb
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.csproj.CoreCompileInputs.cache
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.AssemblyInfoInputs.cache
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.AssemblyInfo.cs
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.dll
+C:\Users\OMRI\source\repos\ComplexNumbers\ComplexNumbers\obj\Release\netcoreapp2.1\ComplexNumbers.pdb
