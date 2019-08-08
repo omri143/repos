@@ -1,0 +1,11 @@
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\bin\Debug\ResistorCalculator.exe.config
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\bin\Debug\ResistorCalculator.exe
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\bin\Debug\ResistorCalculator.pdb
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.Form1.resources
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.Properties.Resources.resources
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.csproj.GenerateResource.cache
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.csproj.CoreCompileInputs.cache
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.exe
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.pdb
+C:\Users\OMRI\source\repos\ResistorCalculator\ResistorCalculator\obj\Debug\ResistorCalculator.Form2.resources
