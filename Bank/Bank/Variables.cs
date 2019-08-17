@@ -13,6 +13,7 @@ namespace Bank
         public static readonly string KeysDir = MainDir + "\\Keys";
         public static readonly string KeysFile= KeysDir + "\\serial.key";
         public static readonly string XmlFile = MainDir + "\\Transactions.xml";
+        public static readonly string UsedTransactionsIds = MainDir + "\\ UsedIds";
        
         //File Extensions
         public static readonly string AccountFileExt = ".acc";

@@ -9,14 +9,12 @@ namespace Bank
     {
         private static readonly StringBuilder sb = new StringBuilder();
         private static readonly List<string> Transactions = new List<string>();
-        private static readonly ArrayList TransactionNumbers = new ArrayList();
         public static void WriteTransaction(TransactionTypes type , string data)
         {
             //Saves the transtaction inside a list 
-            string id = GenerateTransactionIdString();
+            string id = GenerateTransactionIdString(type);
             sb.Append(type.ToString() + Variables.seperator+id
                 +Variables.seperator + data + Variables.seperator);
-            TransactionNumbers.Add(id);
             Transactions.Add(sb.ToString());
             sb.Clear();
         }
@@ -26,15 +24,31 @@ namespace Bank
 
 
         }
-        private static string GenerateTransactionIdString()
+        private static string GenerateTransactionIdString(TransactionTypes type)
         {
-            // Generates the id number of the transaction
             StringBuilder id = new StringBuilder();
-            for(int i = 0; i<TransactionNumbers.ToArray().Length;i++)
+
+            switch (type)
             {
-                if (id.ToString().Equals(TransactionNumbers[i]))
+                case TransactionTypes.Deposit:
+                    id.Append("D");
+                    break;
+                case TransactionTypes.Withdraw:
+                    id.Append("W");
+                    break;
+                case TransactionTypes.Transfer_Of_Money:
+                    id.Append("T");
+                    break;
+                default:
+                    break;
+            }
+            // Generates the id number of the transaction
+            var data = Methods.ReadFile(Variables.UsedTransactionsIds);
+            for(int i = 0; i<data.Count;i++)
+            {
+                if (id.ToString().Equals(data[i]))
                 {
-                    return GenerateTransactionIdString();
+                    return GenerateTransactionIdString(type);
                 }
             }
             return id.ToString();
