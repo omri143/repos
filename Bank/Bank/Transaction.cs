@@ -12,7 +12,7 @@ namespace Bank
         public static void WriteTransaction(TransactionTypes type , string data)
         {
             //Saves the transtaction inside a list 
-            string id = GenerateTransactionIdString(type);
+            string id = GenerateTransactionId(type);
             sb.Append(type.ToString() + Variables.seperator+id
                 +Variables.seperator + data + Variables.seperator);
             Transactions.Add(sb.ToString());
@@ -24,7 +24,7 @@ namespace Bank
 
 
         }
-        private static string GenerateTransactionIdString(TransactionTypes type)
+        private static string GenerateTransactionId(TransactionTypes type)
         {
             StringBuilder id = new StringBuilder();
 
@@ -42,13 +42,14 @@ namespace Bank
                 default:
                     break;
             }
+
             // Generates the id number of the transaction
             var data = Methods.ReadFile(Variables.UsedTransactionsIds);
             for(int i = 0; i<data.Count;i++)
             {
                 if (id.ToString().Equals(data[i]))
                 {
-                    return GenerateTransactionIdString(type);
+                    return GenerateTransactionId(type);
                 }
             }
             return id.ToString();

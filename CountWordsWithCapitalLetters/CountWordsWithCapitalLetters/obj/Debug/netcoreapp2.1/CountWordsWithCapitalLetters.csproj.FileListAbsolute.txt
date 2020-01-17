@@ -1,0 +1,11 @@
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\bin\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.deps.json
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\bin\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.runtimeconfig.json
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\bin\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.runtimeconfig.dev.json
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\bin\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.dll
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\bin\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.pdb
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.csproj.CoreCompileInputs.cache
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.AssemblyInfoInputs.cache
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.AssemblyInfo.cs
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.dll
+C:\Users\OMRI\source\repos\CountWordsWithCapitalLetters\CountWordsWithCapitalLetters\obj\Debug\netcoreapp2.1\CountWordsWithCapitalLetters.pdb
