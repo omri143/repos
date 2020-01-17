@@ -11,7 +11,7 @@ namespace TicTacToe
         private static bool Xturn = true;
         private static readonly int rows = 3;
         private static readonly int columns = 3;
-        private static char current = 'x';
+        private static char current = 'X';
         private static readonly char initChar = ' ';
         private static char[,] board = new char[rows, columns];
         private static readonly string[] commands = { "Start a new game", "Exit" };
@@ -43,6 +43,8 @@ namespace TicTacToe
                 {
                     Console.Clear();
                     Game(board, Xturn);
+                    Console.Clear();
+                    Main(null);
                 }
                 else if (ans > commands.Length - 1 || ans < commands.Length - 1)
                 {
@@ -108,22 +110,26 @@ namespace TicTacToe
         }
         private static void Game(char[,] board, bool turn)
         {
-            int n = 0;
+            int n;
             bool exit = false;
             bool win = false;
             while (CheckBoardForEmptySpaces(board, initChar) && !exit && !win)
             {
                 Console.WriteLine("Current Turn: {0}", current);
                 n = InGameMenu();
-                win = CheckBoardForWinning(board,current);
-                Xturn = ChangeTurn(turn);
                 exit = DoMove(n, exit);
+                win = CheckBoardForWinning(board,current);
+                Xturn = ChangeTurn(Xturn);
+            }
+            if(!exit&& !win) // if no one wins and no one quited from the game
+            {
+                Console.WriteLine("It's a tie!");
             }
         }
 
         private static bool DoMove(int n, bool exit)
         {
-            int slot = 0;
+            int slot;
             int[] coordinate;
             switch (n)
             {
@@ -185,26 +191,42 @@ namespace TicTacToe
             for(int i = 0; i <inGameCommands.Length;i++)
             {
                 Console.WriteLine("{0}. {1}", i + 1, inGameCommands[i]);
-                Console.WriteLine("Pick an option:");
-                /*try
-                {
-                   // pick = Convert.ToInt32()
-                }*/
+                
             }
-            return 0;
+            Console.WriteLine("Pick an option:");
+            try
+            {
+                pick = Convert.ToInt32(Console.ReadLine());
+                if (pick > inGameCommands.Length || pick <= 0)
+                {
+                    Console.WriteLine("Please pick a number between 1 to {0}\n Press any key to continue...", inGameCommands.Length);
+                    Console.ReadLine();
+                    return InGameMenu();
+                }
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+                
+                Console.WriteLine("Couldn't parse the input... please try again");
+                return InGameMenu();
+
+            }
+            return pick;
         }
 
         private static void PrintBoard(char[,] board)
         {
             Console.WriteLine("     |     |      ");
-            Console.WriteLine("  {0} |  {1}  |  {2}", board[0,0], board[0,1], board[0,2]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[0, 0], board[0, 1], board[0, 2]);
             Console.WriteLine("_____|_____|_____ ");
             Console.WriteLine("     |     |      ");
-            Console.WriteLine("  {0}  |  {1}  |  {2}", board[1, 0], board[1, 1], board[1,2]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[1, 0], board[1, 1], board[1, 2]);
             Console.WriteLine("_____|_____|_____ ");
             Console.WriteLine("     |     |      ");
-            Console.WriteLine("  {0}  |  {1}  |  {2}", board[2,0], board[2,1], board[2,2]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[2, 0], board[2, 1], board[2, 2]);
             Console.WriteLine("     |     |      ");
+
         }
     }
 }

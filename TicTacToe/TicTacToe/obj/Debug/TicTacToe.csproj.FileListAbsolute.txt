@@ -5,3 +5,9 @@ C:\Users\omri1\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojAssemb
 C:\Users\omri1\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
 C:\Users\omri1\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\omri1\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\OMRI\source\repos\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
