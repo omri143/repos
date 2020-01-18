@@ -44,7 +44,6 @@ namespace TicTacToe
                     Console.Clear();
                     Game(board, Xturn);
                     Console.Clear();
-                    Main(null);
                 }
                 else if (ans > commands.Length - 1 || ans < commands.Length - 1)
                 {
@@ -124,6 +123,8 @@ namespace TicTacToe
             if(!exit&& !win) // if no one wins and no one quited from the game
             {
                 Console.WriteLine("It's a tie!");
+                Main(null);
+
             }
         }
 
