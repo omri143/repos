@@ -17,8 +17,8 @@ namespace TicTacToe
         private static readonly string[] commands = { "Start a new game", "Exit" };
         private static readonly string[] inGameCommands = { "Play", "Print Board", "Leave Game" };
         static void Main(string[] args)
-        {  
-           InitBoard(board, rows, columns, initChar);
+        {
+            InitBoard(board, rows, columns, initChar);
             Console.Clear();
             //Main Menu
             int ans = 0;
@@ -55,7 +55,6 @@ namespace TicTacToe
 
 
         }
-
         private static void InitBoard(char[,] board, int rows, int columns, char init)
         {
             for (int i = 0; i < rows; i++)
@@ -71,10 +70,30 @@ namespace TicTacToe
          * return true if finds one
          *
          */
-        private static bool CheckBoardForWinning(char[,] board , char curr)
+        private static bool CheckBoardForWinning(char[,] board)
         {
+            for (int i = 0; i < rows; i++)// Check Horizontal
+            {
+                if (board[i, 0] == board[i, 1] && board[i, 1] == board[i, 2] && board[i ,0] != initChar)
+                {
+                    return true;
+                }
+            }
+            for (int i = 0; i < columns; i++)// Check Vertical 
+            {
+                if (board[0,i] == board[1, i] && board[0, i] == board[2, i] && board[0,i] != initChar)
+                {
+                    return true;
+                }
+            }
+            if (((board[0, 0] == board[1, 1] && board[2, 2] == board[0, 0])
+                || (board[1, 1] == board[2, 0] && board[1, 1] == board[0, 2])) && board[1, 1] != initChar)//Check Diagonals
+            {
+                return true;
+            }
             return false;
         }
+
         /**
          * Checks for empty slots in the board
          * true ----> There is still free space
@@ -84,7 +103,7 @@ namespace TicTacToe
         {
             for (int i = 0; i < rows; i++)
             {
-                for (int k = 0; i < columns; k++)
+                for (int k = 0;k < columns; k++)
                 {
                     if (board[i, k] == initC)
                     {
@@ -111,18 +130,39 @@ namespace TicTacToe
         {
             int n;
             bool exit = false;
-            bool win = false;
-            while (CheckBoardForEmptySpaces(board, initChar) && !exit && !win)
+            bool win;
+            do
             {
                 Console.WriteLine("Current Turn: {0}", current);
                 n = InGameMenu();
                 exit = DoMove(n, exit);
-                win = CheckBoardForWinning(board,current);
-                Xturn = ChangeTurn(Xturn);
+                win = CheckBoardForWinning(board);
+                if(!exit)
+                {
+                    Xturn = ChangeTurn(Xturn);
+                }
+
             }
+            while (CheckBoardForEmptySpaces(board, initChar) && !exit && !win);
+           
             if(!exit&& !win) // if no one wins and no one quited from the game
             {
                 Console.WriteLine("It's a tie!");
+                Main(null);
+
+            }
+            else if(win && !exit)// if someone won
+            {
+                switch (!Xturn)
+                {
+                    case true:
+                        Console.WriteLine("The Winner is X");
+                        break;
+                    case false:
+                        Console.WriteLine("The Winner is O");
+                        break;
+                }
+                Console.Read();
                 Main(null);
 
             }
@@ -227,7 +267,6 @@ namespace TicTacToe
             Console.WriteLine("     |     |      ");
             Console.WriteLine("  {0}  |  {1}  |  {2}", board[2, 0], board[2, 1], board[2, 2]);
             Console.WriteLine("     |     |      ");
-
         }
     }
 }
